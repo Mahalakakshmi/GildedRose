@@ -63,14 +63,12 @@ public class GildedRose {
  				 		
  // sorting sulfuras items as a list				
  			
- 				//if((itemName.toLowerCase().contains("sulfuras")) &&  (items.get(i).getSellIn() == 0)) {
  				if((itemName.toLowerCase().contains("sulfuras"))) {
- 					
  				String sulfurasItem= itemName;
  				int sellInSulfuras = items.get(i).getSellIn();
  				int qualityOfSulfuras= items.get(i).getQuality(); 
  				    if(items.get(i).getSellIn() == 0) {sulfurasItems.add(new Item(sulfurasItem,sellInSulfuras,qualityOfSulfuras));}
- 				//sulfurasItems.add(new Item(sulfurasItem,sellInSulfuras,qualityOfSulfuras));
+ 				
  				    else {inappropriateItems.add(new Item(sulfurasItem,sellInSulfuras,qualityOfSulfuras));}
  				
  				}
