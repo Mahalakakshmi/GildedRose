@@ -35,9 +35,9 @@ public class GildedRose {
          
 
  		//listofitems = normalItems;
-        // listofitems = conjureditems;
+                // listofitems = conjureditems;
  		//listofitems = sulfurasItems;
- 		//listofitems = agedBrieitems;
+ 		listofitems = agedBrieitems;
  		
  		
  		System.out.println("*** List of items ****");
