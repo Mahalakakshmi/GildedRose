@@ -35,6 +35,10 @@ public class GildedRoseTest {
 		testlistofitems.add(new Item("SQL DynamoDB Mongoose", 5, 68));
 		testlistofitems.add(new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20));
 		testlistofitems.add(new Item("Conjured Mana Cake", 3, 6));
+		testlistofitems.add(new Item("Cloud computing is the on-demand availability of "
+				+ "computer system resources, especially data storage and computing power, "
+				+ "without direct active management by the user. The term is generally used "
+				+ "to describe data centers available to many users over the Internet.", 12, 36));
 		
 		
 		System.out.println("Before calling updateQuality GildedRose.normalItems.size() = "+GildedRose.normalItems.size());
@@ -83,7 +87,7 @@ public class GildedRoseTest {
 		assertEquals(2,GildedRose.conjureditems.size());
 		assertEquals(1,GildedRose.sulfurasItems.size());
 		assertEquals(1,GildedRose.agedBrieitems.size());
-		assertEquals(3,GildedRose.inappropriateItems.size());
+		assertEquals(4,GildedRose.inappropriateItems.size());
 
 		
 	}
