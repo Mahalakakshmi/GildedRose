@@ -59,7 +59,7 @@ public class GildedRose {
  				int itemSellIn = items.get(i).getSellIn();
  				int itemQuality =  items.get(i).getQuality();
  				
- 		if(  ((strlength >0) && ((itemSellIn == 0 && itemQuality>0 )|(itemSellIn > 0 && itemQuality<=50))  )     ){   
+ 		if(  ( ((strlength >0  && strlength < 150 ) && ((itemSellIn == 0 && itemQuality>0 )|(itemSellIn > 0 && itemQuality<=50))  )     ){   
  				 		
  // sorting sulfuras items as a list				
  			
